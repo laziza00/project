@@ -9,10 +9,12 @@ for i in lst:
 
 
 class Car:
+	def __init__(self):
+		pass
 	def drives(self):
-		print("Mersedes Benz")
+		print("Mersedes Benz", "Tesla", "Hyundai", "Ferrari")
 person1.Car()
-print(person1)
+print(person1.drives())
 
 
 def Salom(ism):
