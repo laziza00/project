@@ -17,3 +17,6 @@ print(person1)
 
 def Salom(ism):
 	print("Salom",ism)
+
+
+Salom(input())
